@@ -6,7 +6,7 @@ This is the research code for the paper:
 
 Jia-Bin Huang, Abhishek Singh, and Narendra Ahuja, "Single Image Super-Resolution using Transformed Self-Exemplars", CVPR 2015 [PDF](https://uofi.box.com/shared/static/8llt4ijgc39n3t7ftllx7fpaaqi3yau0.pdf)
 
-The proposed algorithm achieves the state-of-the-art result on image super-resolution without using any external training dataset, feature extraction and complicated learning algorithms. For more details, please visit our [Project page](https://sites.google.com/site/jbhuang0604/publications/struct_sr).
+The proposed algorithm achieves the state-of-the-art performance on image super-resolution *without* the need of any external training dataset, feature extraction and complicated learning algorithms. For more details, please visit our [Project page](https://sites.google.com/site/jbhuang0604/publications/struct_sr).
 
 All the datasets (Set5, Set14, Urban 100, BSD 100, Sun-Hays 80), precomputed results and visual comparisons can be found in the following sections.
 
