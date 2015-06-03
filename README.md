@@ -85,6 +85,15 @@ In each dataset, we include results of the state-of-the-art single image super-r
     * [6] Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang. Learning a Deep Convolutional Network for Image Super-Resolution, in European Conference on Computer Vision (ECCV 2014). 
     * Code available [here](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html)
 
+### Qualitative comparison
+
+In our supplementary material, we includde 120 sample comparisons with the state-of-the-art algorithms. Download the document [here](https://uofi.box.com/shared/static/k0a2wziaavwoo557aygkbwsa6syln1b9.pdf).
+
+You can browse and compare our results with other methods via the following links.
+ * [Urbana 100](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/Urban_SRF_4.html) - Super-resolution factor 4x
+ * [BSD 100](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/BSD_SRF_3.html) - Super-resolution factor 3x
+ * [Sun-Hays 80](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/Sun_Hays_SRF_8.html) - Super-resolution factor 8x
+
 ### Quantitative comparisons
 
 We report three types of metrics
@@ -152,13 +161,3 @@ We report three types of metrics
 | **2x** - IFC|    5.26	|    6.20	|    6.30	|    6.36	|    5.56	|    6.09	|    7.15	|    6.84	| 
 | **3x** - IFC|    3.00	|    3.37	|    3.49	|    3.17	|    2.72	|    3.39	|    3.92	|    3.81	| 
 | **4x** - IFC|    1.91	|    2.22	|    2.20	|    2.18	|    1.86	|    2.18	|    2.51	|    2.46	| 
-
-### Qualitative comparison
-
-In our supplementary material, we includde 120 sample comparisons with the state-of-the-art algorithms. Download the document [here](https://uofi.box.com/shared/static/k0a2wziaavwoo557aygkbwsa6syln1b9.pdf).
-
-You can browse and compare our results with other methods via the following links.
- * [Urbana 100](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/Urban_SRF_4.html) - Super-resolution factor 4x
- * [BSD 100](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/BSD_SRF_3.html) - Super-resolution factor 3x
- * [Sun-Hays 80](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/Sun_Hays_SRF_8.html) - Super-resolution factor 8x
-
