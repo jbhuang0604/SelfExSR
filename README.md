@@ -27,7 +27,7 @@ If you find the code and dataset useful in your research, please consider citing
 |  Folder    | description |
 | ---|---|
 |cache | cached data for vanishing point detection|
-|data|Testing images of five datasets (Set5, Set14, Urban 100, BSD 100, Sun-Hays 80)|
+|data|Testing images of five datasets (Set5, Set14, Urban 100, BSD 100, Sun-Hays 80). All the images have been cropped according to the desired super-resolution factor. This avoids misalignment of the groundtruth high-resolution images and the super-resolved images|
 |external|We use the vgg_interp2 from `imrender` to perform bilinear interpolation|
 |quant_eval|Quantitative evaluation code|
 |reference| A copy of the CVPR paper and the bibtex|
