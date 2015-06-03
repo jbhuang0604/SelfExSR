@@ -73,33 +73,33 @@ We report three types of metrics
 
 |  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 36.50 |
-| **3x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 32.62 |
-| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 30.33 |
+| **2x** - PSNR|   33.64	|   35.78	|   36.24	|    Sub-band	|   35.43	|   36.28	|    A+	|   36.50	| 
+| **3x** - PSNR|   30.39	|   31.34	|   32.30	|    Sub-band	|   31.10	|   32.37	|    A+	|   32.62	|
+| **4x** - PSNR|   28.42	|   29.07	|   30.07	|    Sub-band	|   28.84	|   30.08	|    A+	|   30.33	|
 ||
-| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9537 |
-| **3x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9094 |
-| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.8623 |
+| **2x** - SSIM|  0.9292	|  0.9485	|  0.9518	|  Sub-band	|  0.9452	|  0.9509	|  A+	|  0.9537	| 
+| **3x** - SSIM|  0.8678	|  0.8869	|  0.9041	|  Sub-band	|  0.8811	|  0.9025	|  A+	|  0.9094	| 
+| **4x** - SSIM|  0.8101	|  0.8263	|  0.8553	|  Sub-band	|  0.8210	|  0.8525	|  A+	|  0.8623	| 
 ||
-| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 7.83 |
-| **3x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 4.76 |
-| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 3.19 |
+| **2x** - IFC|    5.72	|    6.94	|    7.05	|    Sub-band	|    6.70	|    6.85	|    A+	|    7.83	| 
+| **3x** - IFC|    3.45	|    3.98	|    4.25	|    Sub-band	|    3.68	|    4.11	|    A+	|    4.76	| 
+| **4x** - IFC|    2.28	|    2.57	|    2.82	|    Sub-band	|    2.42	|    2.76	|    A+	|    3.19	| 
 
 ##### Results on Set 14 
 
 |  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 32.23 |
-| **3x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 29.16 |
-| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 27.40 |
+| **2x** - PSNR|   30.22	|   31.64	|   32.14	|    Sub-band	|   31.41	|   32.00	|    A+	|   32.23	| 
+| **3x** - PSNR|   27.53	|   28.19	|   28.96	|    Sub-band	|   28.21	|   28.90	|    A+	|   29.16	| 
+| **4x** - PSNR|   25.99	|   26.40	|   27.18	|    Sub-band	|   26.43	|   27.13	|    A+	|   27.40	| 
 ||
-| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9036 |
-| **3x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.8197 |
-| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7518 |
+| **2x** - SSIM|  0.8683	|  0.8940	|  0.9031	|  Sub-band	|  0.8881	|  0.9012	|  A+	|  0.9036	| 
+| **3x** - SSIM|  0.7737	|  0.7977	|  0.8140	|  Sub-band	|  0.7926	|  0.8124	|  A+	|  0.8197	| 
+| **4x** - SSIM|  0.7023	|  0.7218	|  0.7434	|  Sub-band	|  0.7163	|  0.7395	|  A+	|  0.7518	| 
 ||
-| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 7.60 |
-| **3x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 4.38 |
-| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 2.90 |
+| **2x** - IFC|    5.74	|    6.83	|    6.92	|    Sub-band	|    6.47	|    6.68	|    A+	|    7.60	| 
+| **3x** - IFC|    3.33	|    3.75	|    3.92	|    Sub-band	|    3.59	|    3.81	|    A+	|    4.38	| 
+| **4x** - IFC|    2.18	|    2.46	|    2.57	|    Sub-band	|    2.30	|    2.50	|    A+	|    2.90	| 
 
 ##### Results on Urban 100
 
