@@ -105,13 +105,13 @@ We report three types of metrics
 
 |  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 29.38 |
+| **2x** - PSNR|   26.66	|   28.26	|   28.74	|   28.34	|   27.85	|   28.65	|   28.87	|   29.38	| 
 | **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 24.82 |
 ||
-| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9032 |
+| **2x** - 0.8408	|  0.8828	|  0.8940	|  0.8820	|  0.8709	|  0.8909	|  0.8957	|  0.9032	| 
 | **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7386 |
 ||
-| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 7.96 |
+| **2x** - IFC|    5.72	|    6.98	|    6.86	|    7.08	|    6.17	|    6.66	|    8.02	|    7.96	| 
 | **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 3.33 |
 
 ##### Results on BSD 100
