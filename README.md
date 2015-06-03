@@ -43,7 +43,7 @@ Enjoy!
 
 ##### Datasets
 
-The full super-resolution results on Urban 100, BSD 100, and Sun-Hays 80 are available.
+The full super-resolution results on Set 5, Set 14, Urban 100, BSD 100 and Sun-Hays 80 are available.
  * [Set 5]()
  * [Set 14]()
  * [Urban 100](https://uofi.box.com/shared/static/65upg43jjd0a4cwsiqgl6o6ixube6klm.zip) (1.14 GB)
