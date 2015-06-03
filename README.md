@@ -24,8 +24,20 @@ If you find the code and dataset useful in your research, please consider citing
     }
 
 ### Contents
-##### Directories
-  * cache
+|  Folder    | description |
+| ---|---|
+|cache | cached data for vanishing point detection|
+|data|Testing images of five datasets (Set5, Set14, Urban 100, BSD 100, Sun-Hays 80)|
+|external|We use the vgg_interp2 from `imrender` to perform bilinear interpolation|
+|quant_eval|Quantitative evaluation code|
+|reference| A copy of the CVPR paper and the bibtex|
+|source|MATLAB source code|
+
+To run the algorithm on all datasets, simply run the `sr_demo_bacth.m`. Note that it is an educational code that is not optimized for speed. If timing is a concern, you can achieve visually similar results with small numbers of iterations, e.g., set the number of iterations `opt.numIter = 5;` in the file `sr_init_opt.m`. An example of the speed and quality trade-off can be found in Fig. 10 in the paper.
+
+Feedbacks and comments are welcome! Feel free to contact me via jbhuang1@illinois.edu.
+
+Enjoy!
 
 ### Comparison with the state-of-the-art
 
