@@ -39,6 +39,8 @@ Feedbacks and comments are welcome! Feel free to contact me via jbhuang1@illinoi
 
 Enjoy!
 
+Note: For vanishing point detection only windows executable is provided (from [Image Completion using Planar Structure Guidance](https://github.com/jbhuang0604/StructCompletion)), a cross-platform version will be included later.
+
 ### Comparison with the state-of-the-art
 
 ##### Datasets
