@@ -1,0 +1,12 @@
+Changes from version 1.1:
+
+- Fixed bug in memory allocation
+
+Changes from version 1.0:
+
+- Modified syntax of 'friend' declarations to make it compile under unix
+
+Changes by Oliver Woodford:
+
+- Modifications to compile under linux.
+- Modifications to have consistent form of Type????::GlobalSize() across types.

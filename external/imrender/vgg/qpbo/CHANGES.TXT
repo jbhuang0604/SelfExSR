@@ -1,0 +1,10 @@
+QPBO, version 1.1.
+
+Changes from version 1.0:
+- fixed a bug in Probe(). (Thanks to Tian Taipeng for noticing that there is a bug).
+
+  Details: In version 1.1 the transformed energy after calling Probe() was incorrect.
+   As a result, the option ProbeOptions::weak_persistencies=1 was not working correctly,
+   since it called the main probing function iteratively.
+
+- Added new function Improve() (without arguments), which generates a random permutation itself.
