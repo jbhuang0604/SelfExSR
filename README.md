@@ -2,7 +2,30 @@
 
 ### Introduction
 
-[Project page](https://sites.google.com/site/jbhuang0604/publications/struct_sr)
+This is the research code for the paper:
+
+Jia-Bin Huang, Abhishek Singh, and Narendra Ahuja, "Single Image Super-Resolution using Transformed Self-Exemplars", CVPR 2015 [PDF](https://uofi.box.com/shared/static/8llt4ijgc39n3t7ftllx7fpaaqi3yau0.pdf)
+
+The proposed algorithm achieves the state-of-the-art result on image super-resolution without using any external training dataset, feature extraction and complicated learning algorithms. For more details, please visit our [Project page](https://sites.google.com/site/jbhuang0604/publications/struct_sr).
+
+All the datasets (Set5, Set14, Urban 100, BSD 100, Sun-Hays 80), precomputed results and visual comparisons can be found in the following sections.
+
+### Citation
+
+If you find the code and dataset useful in your research, please consider citing:
+
+    @inproceedings{Huang-CVPR-2015,
+        title={Single Image Super-Resolution From Transformed Self-Exemplars},
+        Author = {Huang, Jia-Bin and Singh, Abhishek and Ahuja, Narendra},
+        Title = {Single Image Super-Resolution using Transformed Self-Exemplars},
+        booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+        pages={5197--5206},
+        Year = {2015}
+    }
+
+### Contents
+##### Directories
+  * cache
 
 ### Comparison with the state-of-the-art
 
@@ -15,10 +38,10 @@ The full super-resolution results on Urban 100, BSD 100, and Sun-Hays 80 are ava
  * [BSD 100](https://uofi.box.com/shared/static/qgctsplb8txrksm9to9x01zfa4m61ngq.zip) (568 MB)
  * [Sun-Hays 80](https://uofi.box.com/shared/static/rirohj4773jl7ef752r330rtqw23djt8.zip) (311 MB)
 
-Set 5 dataset
+Set 5 dataset - [link]()
 ![Set 5](https://uofi.box.com/shared/static/sk9duzzu63x80zdgwszf1vwqwl0ea7zx.jpg)
 
-Set 14 dataset
+Set 14 dataset - [link]()
 ![Set 14](https://uofi.box.com/shared/static/b8067imlbojcdk6guepudlj7c0wh3kmd.jpg)
 
 Urban 100 dataset - [link](https://uofi.box.com/shared/static/65upg43jjd0a4cwsiqgl6o6ixube6klm.zip)
@@ -118,16 +141,16 @@ We report three types of metrics
 
 |  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 31.18 |
-| **3x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 28.30 |
+| **2x** - PSNR|   29.55	|   30.77	|   31.11	|   30.73	|   30.28	|   31.11	|   31.22	|   31.18	| 
+| **3x** - PSNR|   27.20	|   27.72	|   28.17	|   27.88	|   27.06	|   28.20	|   28.30	|   28.30	| 
 | **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 26.85 |
 ||
-| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.8855 |
-| **3x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7843 |
+| **2x** - SSIM|  0.8425	|  0.8744	|  0.8840	|  0.8774	|  0.8621	|  0.8835	|  0.8862	|  0.8855	| 
+| **3x** - SSIM|  0.7382	|  0.7647	|  0.7788	|  0.7714	|  0.7368	|  0.7794	|  0.7836	|  0.7843	| 
 | **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7108 |
 ||
-| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 6.84 |
-| **3x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 3.81 |
+| **2x** - IFC|    5.26	|    6.20	|    6.30	|    6.36	|    5.56	|    6.09	|    7.15	|    6.84	| 
+| **3x** - IFC|    3.00	|    3.37	|    3.49	|    3.17	|    2.72	|    3.39	|    3.92	|    3.81	| 
 | **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 2.46 |
 
 ### Qualitative comparison
@@ -139,15 +162,3 @@ You can browse and compare our results with other methods via the following link
  * [BSD 100](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/BSD_SRF_3.html) - Super-resolution factor 3x
  * [Sun-Hays 80](https://dl.dropboxusercontent.com/u/2810224/Homepage/publications/2015/SuperResolution_CVPR_2015/supp/Sun_Hays_SRF_8.html) - Super-resolution factor 8x
 
-### Citation
-
-If you find the code useful in your research, please consider citing:
-
-    @inproceedings{Huang-CVPR-2015,
-        title={Single Image Super-Resolution From Transformed Self-Exemplars},
-        Author = {Huang, Jia-Bin and Singh, Abhishek and Ahuja, Narendra},
-        Title = {Single Image Super-Resolution using Transformed Self-Exemplars},
-        booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-        pages={5197--5206},
-        Year = {2015}
-    }
