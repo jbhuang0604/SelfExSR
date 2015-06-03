@@ -88,9 +88,9 @@ In each dataset, we include results of the state-of-the-art single image super-r
 ### Quantitative comparisons
 
 We report three types of metrics
-  * PSNR: Peak signal-to-noise ratio
-  * SSIM: Structural similarity index. Code available [here](https://ece.uwaterloo.ca/~z70wang/research/ssim/)
-  * IFC:  Information fidelity criterion. Code available [here](http://live.ece.utexas.edu/research/quality/)
+  * PSNR: [Peak signal-to-noise ratio](http://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)
+  * SSIM: [Structural similarity index](https://ece.uwaterloo.ca/~z70wang/research/ssim/)
+  * IFC:  [Information fidelity criterion](http://live.ece.utexas.edu/research/quality/)
 
 ##### Results on Set 5
 
@@ -129,13 +129,13 @@ We report three types of metrics
 |  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
 | **2x** - PSNR|   26.66	|   28.26	|   28.74	|   28.34	|   27.85	|   28.65	|   28.87	|   29.38	| 
-| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 24.82 |
+| **4x** - PSNR|   23.14	|   24.02	|   24.20	|   24.19	|   23.58	|   24.14	|   24.34	|   24.82	| 
 ||
-| **2x** - 0.8408	|  0.8828	|  0.8940	|  0.8820	|  0.8709	|  0.8909	|  0.8957	|  0.9032	| 
-| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7386 |
+| **2x** - SSIM|  0.8408	|  0.8828	|  0.8940	|  0.8820	|  0.8709	|  0.8909	|  0.8957	|  0.9032	| 
+| **4x** - SSIM|  0.6573	|  0.7024	|  0.7104	|  0.7115	|  0.6736	|  0.7047	|  0.7195	|  0.7386	|
 ||
 | **2x** - IFC|    5.72	|    6.98	|    6.86	|    7.08	|    6.17	|    6.66	|    8.02	|    7.96	| 
-| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 3.33 |
+| **4x** - IFC|    2.27	|    2.75	|    2.71	|    2.72	|    2.35	|    2.63	|    3.16	|    3.33	|
 
 ##### Results on BSD 100
 
@@ -143,15 +143,15 @@ We report three types of metrics
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
 | **2x** - PSNR|   29.55	|   30.77	|   31.11	|   30.73	|   30.28	|   31.11	|   31.22	|   31.18	| 
 | **3x** - PSNR|   27.20	|   27.72	|   28.17	|   27.88	|   27.06	|   28.20	|   28.30	|   28.30	| 
-| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 26.85 |
+| **4x** - PSNR|   25.96	|   26.61	|   26.71	|   26.60	|   26.17	|   26.70	|   26.82	|   26.85	| 
 ||
 | **2x** - SSIM|  0.8425	|  0.8744	|  0.8840	|  0.8774	|  0.8621	|  0.8835	|  0.8862	|  0.8855	| 
 | **3x** - SSIM|  0.7382	|  0.7647	|  0.7788	|  0.7714	|  0.7368	|  0.7794	|  0.7836	|  0.7843	| 
-| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7108 |
+| **4x** - SSIM|  0.6672	|  0.6983	|  0.7027	|  0.7021	|  0.6747	|  0.7018	|  0.7089	|  0.7108	| 
 ||
 | **2x** - IFC|    5.26	|    6.20	|    6.30	|    6.36	|    5.56	|    6.09	|    7.15	|    6.84	| 
 | **3x** - IFC|    3.00	|    3.37	|    3.49	|    3.17	|    2.72	|    3.39	|    3.92	|    3.81	| 
-| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 2.46 |
+| **4x** - IFC|    1.91	|    2.22	|    2.20	|    2.18	|    1.86	|    2.18	|    2.51	|    2.46	| 
 
 ### Qualitative comparison
 
