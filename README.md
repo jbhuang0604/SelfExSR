@@ -64,66 +64,71 @@ In each dataset, we include results of the state-of-the-art single image super-r
 
 ### Quantitative comparisons
 
+We report three types of metrics
+  * PSNR: Peak signal-to-noise ratio
+  * SSIM: Structural similarity index. Code available [here](https://ece.uwaterloo.ca/~z70wang/research/ssim/)
+  * IFC:  Information fidelity criterion. Code available [here](http://live.ece.utexas.edu/research/quality/)
+
 ##### Results on Set 5
 
-|  Scale    | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |  Glasner [3] |SRCNN [6] | A+ [1] | Ours |
+|  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 36.50 |
+| **3x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 32.62 |
+| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 30.33 |
 ||
-| **2x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9537 |
+| **3x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9094 |
+| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.8623 |
 ||
-| **2x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 7.83 |
+| **3x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 4.76 |
+| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 3.19 |
 
 ##### Results on Set 14 
 
-|  Scale    | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |  Glasner [3] |SRCNN [6] | A+ [1] | Ours |
+|  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 32.23 |
+| **3x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 29.16 |
+| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 27.40 |
 ||
-| **2x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9036 |
+| **3x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.8197 |
+| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7518 |
 ||
-| **2x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 7.60 |
+| **3x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 4.38 |
+| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 2.90 |
 
 ##### Results on Urban 100
 
-|  Scale    | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+|  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| 2x - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| 4x - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 29.38 |
+| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | Ours |
 ||
-| 2x - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| 4x - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.9032 |
+| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | Ours |
 ||
-| 2x - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| 4x - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |)
+| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 7.96 |
+| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | Ours |
 
 ##### Results on BSD 100
 
-|  Scale    | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |  Glasner [3] |SRCNN [6] | A+ [1] | Ours |
+|  Scale    | Bicubic | ScSR  | Kim | Sub-band |  Glasner |SRCNN  | A+ | Ours |
 |:---------:|:-------:|:--------:|:------:|:------------:|:---------:|:--------:|:------:|:----:|
-| **2x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - PSNR | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 31.18 |
+| **3x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 28.30 |
+| **4x** - PSNR | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 26.85 |
 ||
-| **2x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - SSIM | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.8855 |
+| **3x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7843 |
+| **4x** - SSIM | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 0.7108 |
 ||
-| **2x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **3x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
-| **4x** - IFC | Bicubic | ScSR [5] | Kim [4]| Sub-band [2] |Glasner [3]|SRCNN [6] | A+ [1] | Ours |
+| **2x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 6.84 |
+| **3x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 3.81 |
+| **4x** - IFC | Bicubic | ScSR | Kim | Sub-band |Glasner |SRCNN | A+ | 2.46 |
 
 ### Qualitative comparison
 
