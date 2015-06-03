@@ -1,0 +1,2 @@
+1. visualizing the nearest neighbor field
+2. add experimental script for performance breakdown
