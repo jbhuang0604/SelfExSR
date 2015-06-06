@@ -17,7 +17,6 @@ If you find the code and dataset useful in your research, please consider citing
     @inproceedings{Huang-CVPR-2015,
         title={Single Image Super-Resolution From Transformed Self-Exemplars},
         Author = {Huang, Jia-Bin and Singh, Abhishek and Ahuja, Narendra},
-        Title = {Single Image Super-Resolution using Transformed Self-Exemplars},
         booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
         pages={5197--5206},
         Year = {2015}
